@@ -10,6 +10,9 @@ public class Subject {
         this.numberOfHours = numberOfHours;
         this.numberOfLectures = numberOfLectures;
     }
+    public Subject(String name){
+        this.name;
+    }
 
     public String getName() {
         return name;
