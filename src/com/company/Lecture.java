@@ -6,6 +6,8 @@ public class Lecture {
 
     private Subject sub;
 
+    private int roomNo;//future scope
+
     private Teacher teacher;
     public Lecture(Subject sub,Teacher teacher) {
         this.sub = sub;
