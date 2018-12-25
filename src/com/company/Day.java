@@ -1,3 +1,7 @@
+package com.company;
+
+import java.util.ArrayList;
+
 public class Day{
 	private String day;
 	private ArrayList<Lecture> lectureList;

@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class TimeTable {
     private ArrayList<Day> dayList;
 
