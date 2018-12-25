@@ -1,6 +1,7 @@
 public class Division{
 	private ArrayList<Teacher> teacherList;
 	Timetable timeTableref;
+	private String className;
 
 	public Division(ArrayList<Teacher> teacherList, timeTableref){
 		this.teacherList = teacherList;
@@ -20,5 +21,13 @@ public class Division{
 
 	public Timetable getTimeTableRef(){
 		return this.timeTableref;
+	}
+
+	public void setClassName(String className){
+		this.classname = className;
+	}
+
+	public String getClassNAme(){
+		return this.className;
 	}
 }
